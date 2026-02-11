@@ -3,13 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import LiquidEther from './components/LiquidEther.tsx';
 import './App.css'
+import NavBar from './components/NavBar.tsx';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div style={{ width: '100%', height: 600, position: 'relative'}} className='bg-black'>
+      <div style={{ width: '100%', height: '100%', position: 'absolute'}} className='bg-[#060111]'>
   <LiquidEther
     colors={[ '#5227FF', '#FF9FFC', '#B19EEF' ]}
     mouseForce={20}
@@ -28,6 +29,10 @@ function App() {
     autoRampDuration={0.6}
 />
 </div>
+<div className='py-10'>
+<NavBar/>
+</div>
+
     </>
   )
 }
