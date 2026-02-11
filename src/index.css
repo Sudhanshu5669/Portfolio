@@ -1,8 +1,17 @@
+@font-face {
+  font-family: figtree;
+  src: url(./assets/fonts/Figtree-Regular.ttf);
+}
+
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
 @custom-variant dark (&:is(.dark *));
+
+@theme {
+  --font-figtree: figtree, "sans-serif";
+}
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
