@@ -22,10 +22,10 @@ function App() {
     resolution={0.5}
     isBounce={false}
     autoDemo
-    autoSpeed={0.5}
+    autoSpeed={0.9}
     autoIntensity={2.2}
     takeoverDuration={0.25}
-    autoResumeDelay={3000}
+    autoResumeDelay={1000}
     autoRampDuration={0.6}
 />
 </div>
