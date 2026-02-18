@@ -37,18 +37,18 @@ function App() {
 
       {/* Hero Section */}
       <section className="min-h-screen flex items-center justify-center px-6 text-center">
-        <div className="max-w-4xl">
+        <div className="max-w-4xl -mt-100">
           <TextType
-            typingSpeed={75}
+            typingSpeed={25}
             pauseDuration={1500}
             showCursor
             cursorCharacter="█"
             text={[
-              "Welcome to React Bits!",
-              "Good to see you!",
-              "Build some amazing experiences!"
+              "I am Sudhanshu.",
+              "Developer. Writer. Creative.",
+              "Let's build some amazing experiences!"
             ]}
-            deletingSpeed={50}
+            deletingSpeed={20}
             variableSpeed={{ min: 60, max: 120 }}
             cursorBlinkDuration={0.5}
             textColors={["#ffffff"]}
